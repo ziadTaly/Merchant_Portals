@@ -20,7 +20,7 @@ public class TestBase {
 
     @BeforeSuite
     @Parameters({"browser"})
-    public void StartDriver( @Optional("Edge") String browserName) throws IOException, ParseException, InterruptedException// اوبشن دي عشان فايل اكس م ال ياخد من اكس ام فايل
+    public void StartDriver( @Optional("chrome") String browserName) throws IOException, ParseException, InterruptedException// اوبشن دي عشان فايل اكس م ال ياخد من اكس ام فايل
     {
         if (driver == null) {  // ✅ يفتح مرة واحدة بس طول الـ suite
             if (browserName.equalsIgnoreCase("chrome")) {
