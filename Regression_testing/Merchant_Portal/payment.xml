@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Merchant Portal Complete Test Suite" parallel="false">
+    <parameter name="browser" value="chrome"/>
+
+    <listeners>
+        <!-- Add listeners here if needed -->
+    </listeners>
+
+    <!-- Test 1: Login Tests -->
+    <test name="TC0 - Login Test Cases" preserve-order="true">
+        <classes>
+            <class name="Merchant_Taly_Test.Login_TC.LoginPageTest_TC0">
+                <methods>
+                    <include name="CanLoginSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!-- Test 4: Payment Tests -->
+    <test name="TC3 - Payment Test Cases" preserve-order="true">
+        <classes>
+            <class name="Merchant_Taly_Test.services.PaymentPageTest_TC3">
+                <methods>
+                    <include name="TC3_1_VerifyPaymentPageLoads"/>
+                    <include name="TC3_2_VerifyPaymentNavActive"/>
+                    <include name="TC3_3_VerifySinglePaymentTabActive"/>
+                    <include name="TC3_4_VerifyFormTitle"/>
+                    <include name="TC3_5_VerifyAllFormFieldsDisplayed"/>
+                    <include name="TC3_6_VerifyMobileNumberField"/>
+                    <include name="TC3_7_VerifyAmountField"/>
+                    <include name="TC3_8_VerifyFeeField"/>
+                    <include name="TC3_9_VerifyDiscountField"/>
+                    <include name="TC3_10_VerifyOrderNumberField"/>
+                    <include name="TC3_11_VerifyDescriptionField"/>
+                    <include name="TC3_12_VerifyCustomerNameField"/>
+                    <include name="TC3_13_VerifyItemNameField"/>
+                    <include name="TC3_14_VerifySessionTimeoutField"/>
+                    <include name="TC3_15_VerifyMerchantUrlField"/>
+                    <include name="TC3_16_VerifySubmitButton"/>
+                    <include name="TC3_17_VerifyCompleteFormFill"/>
+                    <include name="TC3_18_VerifyMobileNumberPlaceholder"/>
+                    <include name="TC3_19_VerifyMobileNumberMaxLength"/>
+                    <include name="TC3_20_VerifyPaymentHistoryTitle"/>
+                    <include name="TC3_21_VerifyTableHeaders"/>
+                    <include name="TC3_22_VerifyTableHasData"/>
+                    <include name="TC3_23_VerifySelectAllCheckbox"/>
+                    <include name="TC3_24_VerifyRowCheckbox"/>
+                    <include name="TC3_25_VerifyMSISDNDisplay"/>
+                    <include name="TC3_26_VerifyAmountDisplay"/>
+                    <include name="TC3_27_VerifyStatusDisplay"/>
+                    <include name="TC3_28_VerifyPaginationDisplayed"/>
+                    <include name="TC3_29_VerifyCurrentPageNumber"/>
+                    <include name="TC3_30_VerifyNextPageNavigation"/>
+                    <include name="TC3_31_VerifyPreviousPageNavigation"/>
+                    <include name="TC3_32_VerifyPageNumberClick"/>
+                    <include name="TC3_33_VerifyBulkPaymentTab"/>
+                    <include name="TC3_34_VerifyNavigationToDashboard"/>
+                    <include name="TC3_35_VerifyNavigationToTransactions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

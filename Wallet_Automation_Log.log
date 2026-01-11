@@ -1,0 +1,347 @@
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Dashboard Page Loads
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Dashboard page loaded successfully
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Dashboard Page Loaded Successfully
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Dashboard Title
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Dashboard title: Dashboard
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Dashboard Title Verified - Dashboard
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Sidebar Elements
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Dashboard navigation active status: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Powered By Taly displayed: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Sidebar Elements Verified
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Monthly Performance Section
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Monthly Performance section displayed: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Monthly Performance Section Displayed
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Total Transaction Count Card
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Total Transaction Count title: Total Transaction Count
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Acceptance radio checked status for Transaction Count: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: No data message displayed for Transaction Count: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Total Transaction Count Card Verified
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Total Volume Card
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Total Volume title: Total Volume
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Acceptance radio checked status for Volume: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: No data message displayed for Volume: true
+Jan 11, 2026 11:08:01 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Total Volume Card Verified
+Jan 11, 2026 11:08:02 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Top Branches Card
+Jan 11, 2026 11:08:02 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Top Branches title: Top Branches
+Jan 11, 2026 11:08:02 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: No data message displayed for Top Branches: true
+Jan 11, 2026 11:08:02 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Top Branches Card Verified
+Jan 11, 2026 11:08:02 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Switch to BNPL Radio in Transaction Count
+Jan 11, 2026 11:08:02 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: BNPL radio selected for Transaction Count
+Jan 11, 2026 11:08:03 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: No data message displayed for Transaction Count: true
+Jan 11, 2026 11:08:23 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to select Acceptance radio for Transaction Count | Exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h5[normalize-space()='Total Transaction Count']/ancestor::div[contains(@class,'bg-white')]//button[@value='Acceptance' and @aria-checked='true']' (tried for 5 second(s) with 500 milliseconds interval)
+Jan 11, 2026 11:08:34 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to verify Acceptance radio status for Transaction Count | Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//h5[normalize-space()='Total Transaction Count']/ancestor::div[contains(@class,'bg-white')]//button[@value='Acceptance' and @aria-checked='true']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e6a3b802608ca301cf022453ca143b, findElement {value=//h5[normalize-space()='Total Transaction Count']/ancestor::div[contains(@class,'bg-white')]//button[@value='Acceptance' and @aria-checked='true'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97e6a3b802608ca301cf022453ca143b
+Jan 11, 2026 11:08:37 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Switch to BNPL Radio in Volume
+Jan 11, 2026 11:08:37 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to select BNPL radio for Volume | Exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//h5[normalize-space()='Total Volume']/ancestor::div[contains(@class,'bg-white')]//button[@value='BNPL'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Jan 11, 2026 11:08:38 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to verify no data message for Volume | Exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//h5[normalize-space()='Total Volume']/ancestor::div[contains(@class,'bg-white')]//div[normalize-space()='No data here, try another filter'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, goog:processID: 11468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Transactions Page Loads
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Transactions page loaded successfully
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Transactions Page Loaded Successfully
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Transactions Navigation Active
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Transactions navigation active status: true
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Transactions Navigation Active
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Filters Section
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Filters title: Filters
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Filters Section Verified
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify All Filters Displayed
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: All filters displayed: true
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: All Filters Displayed
+Jan 11, 2026 11:20:07 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Date Range Picker
+Jan 11, 2026 11:20:08 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Date range picker clicked
+Jan 11, 2026 11:20:09 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Date Range Picker Clicked
+Jan 11, 2026 11:20:09 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Transaction Type Dropdown
+Jan 11, 2026 11:20:09 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Transaction type dropdown clicked
+Jan 11, 2026 11:20:10 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Transaction Type Dropdown Clicked
+Jan 11, 2026 11:20:10 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Channel Type Dropdown
+Jan 11, 2026 11:20:11 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click channel type dropdown | Exception: element click intercepted: Element <button type="button" role="combobox" aria-controls="radix-«rd»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="border-input ring-offset-background data-[placeholder]:text-muted-foreground focus:ring-ring flex h-9 w-full items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-sm focus:ring-1 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 text-gray-500">...</button> is not clickable at point (1000, 225). Other element would receive the click: <html lang="en" class="light" dir="ltr">...</html>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clickElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //button[normalize-space()='Select Channel Type']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:12 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Channel Type Dropdown Clicked
+Jan 11, 2026 11:20:12 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Transaction Scheme Dropdown
+Jan 11, 2026 11:20:14 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click transaction scheme dropdown | Exception: element click intercepted: Element <button type="button" role="combobox" aria-controls="radix-«rf»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="border-input ring-offset-background data-[placeholder]:text-muted-foreground focus:ring-ring flex h-9 w-full items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-sm focus:ring-1 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 text-gray-500">...</button> is not clickable at point (1338, 225). Other element would receive the click: <html lang="en" class="light" dir="ltr">...</html>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clickElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //button[normalize-space()='Select Transaction Scheme']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:15 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Transaction Scheme Dropdown Clicked
+Jan 11, 2026 11:20:15 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify TID Input
+Jan 11, 2026 11:20:15 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to enter TID | Exception: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clearElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //input[@placeholder='TID']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:16 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: TID Input Verified
+Jan 11, 2026 11:20:16 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Batch ID Input
+Jan 11, 2026 11:20:16 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to enter Batch ID | Exception: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clearElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //input[@placeholder='Batch ID']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:17 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Batch ID Input Verified
+Jan 11, 2026 11:20:17 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Auth Code Input
+Jan 11, 2026 11:20:17 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to enter Auth Code | Exception: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clearElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //input[@placeholder='Auth Code']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:18 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Auth Code Input Verified
+Jan 11, 2026 11:20:18 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Transaction Status Dropdown
+Jan 11, 2026 11:20:19 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click transaction status dropdown | Exception: element click intercepted: Element <button type="button" role="combobox" aria-controls="radix-«rk»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="border-input ring-offset-background data-[placeholder]:text-muted-foreground focus:ring-ring flex h-9 w-full items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-sm focus:ring-1 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 text-gray-500">...</button> is not clickable at point (1000, 293). Other element would receive the click: <html lang="en" class="light" dir="ltr">...</html>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clickElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //button[normalize-space()='Transactions Status']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:20 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Transaction Status Dropdown Clicked
+Jan 11, 2026 11:20:20 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Branch Dropdown
+Jan 11, 2026 11:20:22 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click branch dropdown | Exception: element click intercepted: Element <button type="button" role="combobox" aria-controls="radix-«rm»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="border-input ring-offset-background data-[placeholder]:text-muted-foreground focus:ring-ring flex h-9 w-full items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-sm focus:ring-1 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 text-gray-500">...</button> is not clickable at point (1338, 293). Other element would receive the click: <html lang="en" class="light" dir="ltr">...</html>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clickElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //button[normalize-space()='Select Branch']]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:23 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Branch Dropdown Clicked
+Jan 11, 2026 11:20:23 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Reset Button
+Jan 11, 2026 11:20:23 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Reset button displayed: true
+Jan 11, 2026 11:20:24 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click reset button | Exception: element click intercepted: Element <button class="cursor-pointer whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 py-2 flex items-center justify-center gap-2 px-8 text-rose-600" type="button">...</button> is not clickable at point (1623, 377). Other element would receive the click: <html lang="en" class="light" dir="ltr">...</html>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clickElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //button[.//span[normalize-space()='Reset']]]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:25 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Reset Button Verified
+Jan 11, 2026 11:20:25 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Apply Filters Button
+Jan 11, 2026 11:20:25 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Apply filters button displayed: true
+Jan 11, 2026 11:20:26 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click apply filters button | Exception: element click intercepted: Element <button class="cursor-pointer whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground shadow h-10 rounded-md px-8 w-fit bg-mainColor hover:bg-mainColor/70 flex items-center justify-center gap-2 dark:text-white" type="submit">...</button> is not clickable at point (1761, 379). Other element would receive the click: <html lang="en" class="light" dir="ltr">...</html>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e8f921e0d22cbb4c7f571f365d52878, clickElement {id=f.31399B5C01BBAE19AEAAB50C4A0CF90A.d.694D87949DED4296DAEE90AA89D3BFAA.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e8f921e0d22cbb4c7f571f365d52878)] -> xpath: //button[.//span[normalize-space()='Apply Filters']]]
+Session ID: 5e8f921e0d22cbb4c7f571f365d52878
+Jan 11, 2026 11:20:28 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Apply Filters Button Verified
+Jan 11, 2026 11:20:28 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Transactions Title
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Transactions title: Transactions
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Transactions Title Verified
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Total Gross Amount
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Total gross amount displayed: true
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Total gross amount: Total Gross Amount: 6,470,662.66
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Total Gross Amount - Total Gross Amount: 6,470,662.66
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Export Button
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Export button displayed: true
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Export Button Verified
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Table Headers
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: All table headers displayed: true
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Table Headers Verified
+Jan 11, 2026 11:20:29 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Select All Checkbox
+Jan 11, 2026 11:20:30 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Select all checkbox displayed: true
+Jan 11, 2026 11:20:30 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Select all checkbox clicked
+Jan 11, 2026 11:20:31 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Select all checkbox clicked
+Jan 11, 2026 11:20:32 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Select All Checkbox Verified
+Jan 11, 2026 11:20:32 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Table Has Data
+Jan 11, 2026 11:20:32 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Table row count: 10
+Jan 11, 2026 11:20:32 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Table Row Count - 10
+Jan 11, 2026 11:20:32 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Row Checkbox
+Jan 11, 2026 11:20:33 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Row checkbox clicked at index: 0
+Jan 11, 2026 11:20:34 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Row checkbox clicked at index: 0
+Jan 11, 2026 11:20:35 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Row Checkbox Verified
+Jan 11, 2026 11:20:35 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Merchant Name Display
+Jan 11, 2026 11:20:35 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Merchant name at row 0: Degla Smart School
+Jan 11, 2026 11:20:35 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Merchant Name - Degla Smart School
+Jan 11, 2026 11:20:35 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Row Action Button
+Jan 11, 2026 11:20:46 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Row Action Button Clicked
+Jan 11, 2026 11:20:46 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Pagination Displayed
+Jan 11, 2026 11:20:46 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Pagination displayed: true
+Jan 11, 2026 11:20:46 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Test Passed: Pagination Displayed
+Jan 11, 2026 11:20:46 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Current Page Number
+Jan 11, 2026 11:20:46 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Current page number: 
+Jan 11, 2026 11:20:49 AM utilities.LoggerHelper info
+INFO: ✅ SUCCESS: Starting Test: Verify Next Page Navigation
+Jan 11, 2026 11:20:49 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to get current page number | Exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//a[@aria-current='page'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Jan 11, 2026 11:20:49 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to click next page button | Exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//a[@aria-label='Go to next page'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Jan 11, 2026 11:20:51 AM utilities.LoggerHelper error
+SEVERE: ❌ ERROR: Failed to get current page number | Exception: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//a[@aria-current='page'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\ziad.amr\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53434}, goog:processID: 22292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}

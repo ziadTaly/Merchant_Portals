@@ -2,6 +2,139 @@
   "login_Merchant_Portal": {
     "userName": "admin@DeglaSmart.com",
     "password": "Admin@123"
+  },
+  "dashboard_data": {
+    "dashboardTitle": "Dashboard",
+    "totalTransactionCountTitle": "Total Transaction Count",
+    "totalVolumeTitle": "Total Volume",
+    "topBranchesTitle": "Top Branches",
+    "monthlyPerformanceTitle": "Monthly Performance",
+    "noDataMessage": "No data here, try another filter",
+    "selectServicesLabel": "Select Services",
+    "acceptanceLabel": "Acceptance",
+    "bnplLabel": "BNPL",
+    "languageButtonText": "English",
+    "poweredByText": "Powered By Taly"
+  },
+  "navigation_urls": {
+    "dashboardUrl": "/dashboard",
+    "transactionsUrl": "/dashboard/transactions",
+    "paymentUrl": "/dashboard/payment"
+  },
+  "test_config": {
+    "waitTime": 2000,
+    "shortWaitTime": 1000,
+    "maxRetries": 3
+  },
+  "transactions_data": {
+    "filtersTitle": "Filters",
+    "transactionsTitle": "Transactions",
+    "merchantName": "Degla Smart School",
+    "sampleTID": "00021524",
+    "sampleBatchID": "12345",
+    "sampleAuthCode": "AUTH123",
+    "initialPageNumber": "1",
+    "dateRangePickerText": "Pick Date Range",
+    "transactionTypeDropdownText": "Transactions Type",
+    "channelTypeDropdownText": "Select Channel Type",
+    "transactionSchemeDropdownText": "Select Transaction Scheme",
+    "transactionStatusDropdownText": "Transactions Status",
+    "branchDropdownText": "Select Branch",
+    "resetButtonText": "Reset",
+    "applyFiltersButtonText": "Apply Filters",
+    "exportButtonText": "Export as (xlsx)",
+    "tableHeaders": {
+      "merchantName": "Merchant Name",
+      "mid": "MID",
+      "tid": "TID",
+      "maskPan": "Mask PAN",
+      "service": "Service",
+      "grossAmount": "Gross Amount",
+      "mdr": "MDR",
+      "netAmount": "Net Amount",
+      "transactionType": "Transactions Type",
+      "transactionScheme": "Transactions Scheme",
+      "transactionStatus": "Transactions Status"
+    },
+    "transactionTypes": {
+      "sale": "Sale",
+      "void": "Void",
+      "refund": "Refund",
+      "cashWithPurchase": "Cash with Purchase",
+      "installmentPurchase": "Installment purchase",
+      "installmentRefund": "Installment refund"
+    },
+    "channelTypes": {
+      "pos": "POS",
+      "gateway": "Gateway"
+    },
+    "transactionSchemes": {
+      "mastercard": "MasterCard",
+      "visa": "VISA",
+      "meeza": "Meeza",
+      "onus": "OnUs"
+    },
+    "transactionStatuses": {
+      "settledOnly": "Settled Only",
+      "allTransaction": "All Transaction"
+    }
+  },
+  "payment_data": {
+    "formTitle": "Enter Payment Information",
+    "paymentHistoryTitle": "Single Payment History",
+    "singlePaymentTabText": "Single Payment",
+    "bulkPaymentTabText": "Bulk Payment",
+    "sampleMobileNumber": "01122735118",
+    "sampleAmount": "100",
+    "sampleFee": "2.5",
+    "sampleDiscount": "5",
+    "sampleOrderNumber": "ORD-12345",
+    "sampleDescription": "Test Payment",
+    "sampleCustomerName": "Test Customer",
+    "sampleItemName": "Test Item",
+    "sampleSessionTimeout": "1",
+    "sampleMerchantUrl": "https://www.example.com",
+    "mobileNumberPlaceholder": "01xxxxxxxxxx",
+    "mobileNumberMaxLength": "11",
+    "initialPageNumber": "1",
+    "formLabels": {
+      "mobileNumber": "Mobile Number",
+      "amount": "Amount",
+      "fee": "Fee (%)",
+      "discount": "Discount (%)",
+      "orderNumber": "Order Number",
+      "description": "Description",
+      "customerName": "Customer Name",
+      "itemName": "Item name",
+      "sessionTimeout": "Session Timeout (in hours)",
+      "merchantWebsite": "Merchant Website"
+    },
+    "tableHeaders": {
+      "msisdn": "MSISDN",
+      "amount": "Amount",
+      "status": "Status",
+      "customerName": "Customer Name",
+      "description": "Description",
+      "orderNumber": "Order Number",
+      "processAt": "Process At"
+    },
+    "paymentStatuses": {
+      "authorizationDeclined": "Authorization Declined",
+      "approved": "Approved",
+      "pending": "Pending"
+    },
+    "validationRules": {
+      "mobileNumberMinLength": "11",
+      "mobileNumberMaxLength": "11",
+      "amountMin": "0",
+      "feeMin": "0",
+      "feeMax": "99",
+      "discountMin": "0",
+      "discountMax": "99",
+      "sessionTimeoutMin": "1",
+      "descriptionMaxLength": "100",
+      "customerNameMaxLength": "50",
+      "itemNameMaxLength": "50"
+    }
   }
-
 }

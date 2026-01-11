@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dashboard Suite">
+    <parameter name="browser" value="chrome"/>
+
+    <!-- Login Test -->
+    <test name="Login Test Cases">
+        <classes>
+            <class name="Merchant_Taly_Test.Login_TC.LoginPageTest_TC0"/>
+        </classes>
+    </test>
+
+    <!-- Dashboard Tests -->
+    <test name="Dashboard Test Cases">
+        <classes>
+            <class name="Merchant_Taly_Test.dashboardTest_TC.DashboardPageTest_TC1"/>
+        </classes>
+    </test>
+</suite>
